@@ -12,7 +12,7 @@ def handle_brick_action(brick_exists, brick_name_id):
     if brick_exists:
         try:
             # Click the brick element using the correct XPath
-            selenium_lib.click_element(f"xpath={brick_name_id}")  # Passing the XPath as a string
+            selenium_lib.click_element(f"xpath={brick_name_id}")
         except Exception as e:
             print(f"Error occurred while clicking: {e}")
     else:
