@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the CRM automation code for account tab.">
-      <change afterPath="$PROJECT_DIR$/.idea/SMARTCRM-Automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/Account.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/Create Account Code.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/Create Brick Code.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/salesforce.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/variable.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/Search_Brick_Account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/Account.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Account.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/salesforce.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/salesforce.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +20,26 @@
       <list>
         <option value="Robot Feature File" />
         <option value="Robot Resource File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Laraib-Khalid&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Laraib-Khalid/CRM-Automation.git&quot;,
+    &quot;accountId&quot;: &quot;13ba163e-e387-4c0f-81ce-c68887b21447&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -42,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/LaraibKhalid/PycharmProjects/SMARTCRM-Automation",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LaraibKhalid/PycharmProjects/SMARTCRM-Automation&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,6 +75,15 @@
       <option name="presentableId" value="Default" />
       <updated>1739189441527</updated>
     </task>
+    <task id="LOCAL-00001" summary="This is the CRM automation code for account tab.">
+      <option name="closed" value="true" />
+      <created>1739362059387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739362059387</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

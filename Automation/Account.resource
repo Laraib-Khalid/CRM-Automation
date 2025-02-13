@@ -1,5 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
+Library     Search_Brick_Account.py
 Resource    Create Brick Code.resource
 Resource    Create Account Code.resource
 
@@ -25,6 +26,7 @@ Create Brick Account
     Sleep    10s
     Wait Until Element Is Visible    xpath=//input[@role='combobox' and @placeholder='Search apps and items...']    10s
     Input Text    xpath=//input[@role='combobox' and @placeholder='Search apps and items...']    Accounts
+    Sleep    20s
     Wait Until Element Is Visible    xpath=//div[@class='slds-size_small'][contains(.,'Accounts')]    10s
     Click Element    xpath=//div[@class='slds-size_small'][contains(.,'Accounts')]
     Wait Until Element Is Visible    xpath=//h1[@class='slds-var-p-right_x-small'][contains(.,'Accounts')]    10s
@@ -33,13 +35,14 @@ Create Brick Account
     Press Key    xpath=//input[@placeholder='Search this list...']    \\13
     Sleep    10s
     ${brick_exists}=    Run Keyword And Return Status    Element Should Be Visible    ${BRICK_NAME_ID}
+#
 
-    Run Keyword If    ${brick_exists}
-    ...    Click Element    ${BRICK_NAME_ID}
-
-    ...    ELSE
-    ...    Create Brick
-
+#    Run Keyword If    ${brick_exists}
+#    ...    Click Element    ${BRICK_NAME_ID}
+#
+#    ...    ELSE
+#    ...    Create Brick
+    Handle Brick Action    ${brick_exists}    ${BRICK_NAME_ID}
 
 Edit Brick Account
     Wait Until Element Is Visible    xpath=//button[@name='Edit']   20s
