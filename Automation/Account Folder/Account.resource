@@ -22,7 +22,7 @@ ${ENTER_ACCOUNT_TEXT}     Accounts
 ${RESULT_ACCOUNT_TEXT}     xpath=//div[@class='slds-size_small'][contains(.,'Accounts')]
 ${ACCOUNT_PAGE_HEADING}     xpath=//h1[@class='slds-var-p-right_x-small'][contains(.,'Accounts')]
 ${SEARCH_ACCOUNT_XPATH}    xpath=//input[@placeholder='Search this list...']
-#${SEARCH_BRICK_NAME}       Test
+${SEARCH_BRICK_NAME}       Test
 ${SEARCH_BRICK_NAME_XPath}    //a[@title='Test Brick']  # Replace with the actual locator of the "brick name" element
 
 
@@ -70,7 +70,7 @@ Search and Create Brick Account
     Click Element    ${RESULT_ACCOUNT_TEXT}
     Wait Until Element Is Visible   ${ACCOUNT_PAGE_HEADING}     10s
     Sleep    5s
-    Input Text     ${SEARCH_ACCOUNT_XPATH}   ${BRICK_NAME}
+    Input Text     ${SEARCH_ACCOUNT_XPATH}   ${SEARCH_BRICK_NAME}
     Press Key    ${SEARCH_ACCOUNT_XPATH}    \\13
     Sleep    10s
     ${brick_exists}=    Run Keyword And Return Status    Element Should Be Visible    ${SEARCH_BRICK_NAME_XPath}
@@ -91,7 +91,7 @@ Edit Brick Account
     Sleep    10s
     Clear Element Text  ${EDIT_ACCOUNT_NAME_XPATH}   # Clears the existing text
     Input Text      ${EDIT_ACCOUNT_NAME_XPATH}   ${EDIT_BRICK_NAME}
-    Set Global Variable    ${BRICK_NAME}    ${EDIT_BRICK_NAME}
+#    Set Global Variable    ${BRICK_NAME}    ${EDIT_BRICK_NAME}
 #    Click Element    xpath://textarea[@id='input-764']
     Input Text       ${EDIT_BRICK_DESCRIPTION_XPATH}   ${EDIT_BRICK_DESCRIPTION}
     Click Button    ${SAVE_BUTTON_XPATH}

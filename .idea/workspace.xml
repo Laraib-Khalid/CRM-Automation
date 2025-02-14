@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the CRM automation code for account tab using selenium and robot framework code using variables.">
-      <change afterPath="$PROJECT_DIR$/Automation/Contact Folder/Contact.resource" afterDir="false" />
+    <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/Account Folder/Account.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Account Folder/Account.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/Account Folder/Create Brick Code.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Account Folder/Create Brick Code.resource" afterDir="false" />
@@ -55,12 +54,16 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/LaraibKhalid/PycharmProjects/SMARTCRM-Automation",
+    "last_opened_file_path": "C:/Users/LaraibKhalid/PycharmProjects/SMARTCRM-Automation/Automation/Contact Folder",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LaraibKhalid\PycharmProjects\SMARTCRM-Automation\Automation\Contact Folder" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LaraibKhalid\PycharmProjects\SMARTCRM-Automation\Automation\Test" />
       <recent name="C:\Users\LaraibKhalid\PycharmProjects\SMARTCRM-Automation\Automation\Account Folder" />
     </key>
   </component>
@@ -104,7 +107,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739447228405</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact tab code.">
+      <option name="closed" value="true" />
+      <created>1739516996838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739516996838</updated>
+    </task>
+    <task id="LOCAL-00005" summary="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Test tab code.">
+      <option name="closed" value="true" />
+      <created>1739517158273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739517158273</updated>
+    </task>
+    <task id="LOCAL-00006" summary="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.">
+      <option name="closed" value="true" />
+      <created>1739517313220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739517313220</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,7 +145,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -134,7 +161,10 @@
     <MESSAGE value="This is the CRM automation code for account tab." />
     <MESSAGE value="This is the CRM automation code for account tab using selenium code." />
     <MESSAGE value="This is the CRM automation code for account tab using selenium and robot framework code using variables." />
-    <option name="LAST_COMMIT_MESSAGE" value="This is the CRM automation code for account tab using selenium and robot framework code using variables." />
+    <MESSAGE value="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact tab code." />
+    <MESSAGE value="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Test tab code." />
+    <MESSAGE value="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code." />
+    <option name="LAST_COMMIT_MESSAGE" value="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
