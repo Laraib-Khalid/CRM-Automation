@@ -26,6 +26,7 @@ Create Brick
 
     # Fill the Brick Account detail
     Input Text    ${NEW_BRICK_NAME_XPATH}    ${NEW_BRICK_NAME}
+    Set Global Variable    ${BRICK_NAME}    ${NEW_BRICK_NAME}
     Click Button    ${BRICK_STATUS_DROPDOWN_XPATH}
     Click Element    ${BRICK_STATUS_OPTION_XPATH}
     Click Button    ${BRICK_CHANNEL_DROPDOWN_XPATH}
