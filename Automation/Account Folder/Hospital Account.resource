@@ -51,9 +51,6 @@ Create Hospital
     Wait Until Element Is Visible    ${ACCOUNT_BRICK_DROPDOWN_OPTIONS_XPATH}    10s
     Click Element    ${ACCOUNT_BRICK_OPTION_XPATH}
     Sleep    20s
-
-    Sleep    10s
-    Click Button    ${SAVE_BUTTON_XPATH}
     Scroll Element Into View    ${ACCOUNT_BILLING_DROPDOWN_XPATH}
 #    Click Element    xpath=//input[normalize-space(@placeholder)='Search Address']
     Input Text    ${ACCOUNT_BILLING_DROPDOWN_XPATH}    ${ACCOUNT_BILLING_SEARCH_TEXT}
@@ -61,7 +58,8 @@ Create Hospital
     Wait Until Element Is Visible    ${ACCOUNT_BILLING_SEARCH_RESULT}   10s
 #    Sleep    50s
     Click Element    ${ACCOUNT_BILLING_SEARCH_RESULT}
-
+    Sleep    10s
+    Click Button    ${SAVE_BUTTON_XPATH}
 Search and Create Hospital Account
     Sleep    10s
     Click Button    ${APP_LAUNCHER_BUTTON}
