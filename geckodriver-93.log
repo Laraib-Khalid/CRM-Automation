@@ -1,0 +1,41 @@
+1739360467913	geckodriver	INFO	Listening on 127.0.0.1:54102
+1739360471031	mozrunner::runner	INFO	Running command: "C:\\Users\\LaraibKhalid\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-deb ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LARAIB~1\\AppData\\Local\\Temp\\rust_mozprofilecXccQb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739360471464	Marionette	INFO	Marionette enabled
+1739360471615	Marionette	INFO	Listening on port 54132
+Read port: 54132
+WebDriver BiDi listening on ws://127.0.0.1:54103
+1739360471701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54103/devtools/browser/92f560be-f6ce-40a9-923b-3d4fb3eb094d
+1739360566700	Marionette	INFO	Stopped listening on port 54132
+Dynamically enable window occlusion 1
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})

@@ -1,0 +1,23 @@
+1739423650565	geckodriver	INFO	Listening on 127.0.0.1:52687
+1739423653655	mozrunner::runner	INFO	Running command: "C:\\Users\\LaraibKhalid\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-deb ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LARAIB~1\\AppData\\Local\\Temp\\rust_mozprofile2nMfP3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739423654022	Marionette	INFO	Marionette enabled
+1739423654154	Marionette	INFO	Listening on port 52697
+Read port: 52697
+WebDriver BiDi listening on ws://127.0.0.1:52688
+1739423654234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52688/devtools/browser/8d8f45d4-bcc3-460b-8dab-e398b8b9106a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+1739423665037	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://raptorsconsulting--qasmartcrm.sandbox.file.force.com/secur/contentDoor?startURL=https%3A%2F%2Fraptorsconsulting--qasmartcrm.sandbox.my.salesforce.com%2Fone%2Fone.app&sid=00D7x00000CTSwT%21AQEAQGPl_JTCuNdYDjVjhb4.bf2vKNd5oSfS59u5X81d9Ri6pBOvDHN3jBcpnJucPiXreNC06c7PrVl20hXHFjLKArfYTnWj&skipRedirect=1&lm=eyJlbmMiOiJBMjU2R0NNIiwiYXVkIjoiMDBEN3gwMDAwMENUU3dUIiwia2lkIjoie1widFwiOlwiMDBEN3gwMDAwMENUU3dUXCIsXCJ2XCI6XCIwMkc1dzAwMDAwMHBDMjhcIixcImFcIjpcImNvbnRlbnRkb29ydXNlcnRyYW5zaWVudGtleWVuY3J5cHRcIixcInVcIjpcIjAwNTV3MDAwMDBDRmY3bVwifSIsImNyaXQiOlsiaWF0Il0sImlhdCI6MTczOTQyMzY2MjQzNywiZXhwIjowfQ%3D%3D..PydlZa3wj6HQG9vc.p4P6eqLsB8Yq16sEOK9ccw%3D%3D.TGEGkhG0KUYXBHfYrKzQ6Q%3D%3D" ({})
+1739423861030	Marionette	INFO	Stopped listening on port 52697
+JavaScript warning: https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/-DjR93YDRS0wZ_x-cvz4fA/apppart2-4.js, line 2113: Script terminated by timeout at:
+z/v.current<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/-DjR93YDRS0wZ_x-cvz4fA/apppart2-4.js:2113:4079
+
+Dynamically enable window occlusion 1

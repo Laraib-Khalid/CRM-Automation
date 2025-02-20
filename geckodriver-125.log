@@ -1,0 +1,19 @@
+1739443558068	geckodriver	INFO	Listening on 127.0.0.1:51348
+1739443561187	mozrunner::runner	INFO	Running command: "C:\\Users\\LaraibKhalid\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-deb ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LARAIB~1\\AppData\\Local\\Temp\\rust_mozprofileCHzd3h"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739443561556	Marionette	INFO	Marionette enabled
+1739443561708	Marionette	INFO	Listening on port 51358
+WebDriver BiDi listening on ws://127.0.0.1:51349
+Read port: 51358
+1739443561900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51349/devtools/browser/ea1a5bbe-07e5-441a-8676-ec47d3770c6a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+1739443571020	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+1739443683346	Marionette	INFO	Stopped listening on port 51358
+Dynamically enable window occlusion 1

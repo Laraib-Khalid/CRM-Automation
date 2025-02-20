@@ -1,0 +1,54 @@
+1739358966736	geckodriver	INFO	Listening on 127.0.0.1:52438
+1739358969801	mozrunner::runner	INFO	Running command: "C:\\Users\\LaraibKhalid\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-deb ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LARAIB~1\\AppData\\Local\\Temp\\rust_mozprofilex4E4RY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739358970290	Marionette	INFO	Marionette enabled
+1739358970447	Marionette	INFO	Listening on port 52447
+WebDriver BiDi listening on ws://127.0.0.1:52439
+Read port: 52447
+1739358970653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52439/devtools/browser/3c5046a1-7a24-416d-89ee-8d2f05088a36
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+1739358983212	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+1739359142205	Marionette	INFO	Stopped listening on port 52447
+JavaScript warning: https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js, line 46: Script terminated by timeout at:
+Sl@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:46:3000
+handleBlur@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/hfGDR_qqd-jSPuE-0w_iNg/apppart3-4.js:1992:5872
+Ao@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:44803
+ho/<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:43810
+jo@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:49323
+ho@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:43795
+b/<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:39181
+handleEvent@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:6404
+kn/u/<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:6892
+u@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:6829
+kn@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:6952
+s@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:54864
+dispatchEvent@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:16446
+handleBlur@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/1pyIn8hYlSu3FJ8tKfrmvQ/apppart2-4.js:2086:7831
+Ao@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:44803
+ho/<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:43810
+jo@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:49323
+ho@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:43795
+b/<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:39181
+handleEvent@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:6404
+kn/u/<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:6892
+u@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:6829
+kn@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:6952
+s@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:54864
+dispatchEvent@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:16446
+dispatchBlur@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/hfGDR_qqd-jSPuE-0w_iNg/apppart3-4.js:1854:10989
+handleBlur@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/hfGDR_qqd-jSPuE-0w_iNg/apppart3-4.js:1854:23545
+Ao@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:44803
+ho/<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:43810
+jo@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:49323
+ho@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:43795
+b/<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:49:39181
+t@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Zm9LbDZETkxUclI3TmZfamRYSmpzUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:5702
+
+Dynamically enable window occlusion 1

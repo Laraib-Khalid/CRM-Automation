@@ -1,0 +1,19 @@
+1739432143823	geckodriver	INFO	Listening on 127.0.0.1:58691
+1739432146917	mozrunner::runner	INFO	Running command: "C:\\Users\\LaraibKhalid\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-deb ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LARAIB~1\\AppData\\Local\\Temp\\rust_mozprofileCsbryR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739432147433	Marionette	INFO	Marionette enabled
+1739432147563	Marionette	INFO	Listening on port 58706
+WebDriver BiDi listening on ws://127.0.0.1:58692
+Read port: 58706
+1739432147744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58692/devtools/browser/1fc91e73-79c7-49c8-89d3-882c0e22b1fa
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.678d4002a98f8d383437.js, line 2: unreachable code after return statement
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://raptorsconsulting--qasmartcrm.sandbox.file.force.com/secur/contentDoor?startURL=https%3A%2F%2Fraptorsconsulting--qasmartcrm.sandbox.my.salesforce.com%2Fone%2Fone.app&sid=00D7x00000CTSwT%21AQEAQFnENkzfYOBTwwpQ9qFPl8LjweApxQZdP8k3_GYPKkbduBOIL4iZP69ob.cbu2wMFdZezXCmJuySyHAmQU9pdHOuBQH7&skipRedirect=1&lm=eyJlbmMiOiJBMjU2R0NNIiwiYXVkIjoiMDBEN3gwMDAwMENUU3dUIiwia2lkIjoie1widFwiOlwiMDBEN3gwMDAwMENUU3dUXCIsXCJ2XCI6XCIwMkc1dzAwMDAwMHBDMjhcIixcImFcIjpcImNvbnRlbnRkb29ydXNlcnRyYW5zaWVudGtleWVuY3J5cHRcIixcInVcIjpcIjAwNTV3MDAwMDBDRmY3bVwifSIsImNyaXQiOlsiaWF0Il0sImlhdCI6MTczOTQzMjE1NTA0MSwiZXhwIjowfQ%3D%3D..jO4zBVEUmNPPzMx6.a5q0KA6hq69uP0BpjgUCOg%3D%3D.9GsgnMxLaHRXS-jlCMzKAg%3D%3D" ({})
+1739432271136	Marionette	INFO	Stopped listening on port 58706
+Dynamically enable window occlusion 1

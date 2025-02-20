@@ -1,0 +1,28 @@
+1739275192313	geckodriver	INFO	Listening on 127.0.0.1:57754
+1739275195443	mozrunner::runner	INFO	Running command: "C:\\Users\\LaraibKhalid\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-deb ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LARAIB~1\\AppData\\Local\\Temp\\rust_mozprofileBaOYaQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739275195795	Marionette	INFO	Marionette enabled
+1739275195967	Marionette	INFO	Listening on port 57763
+WebDriver BiDi listening on ws://127.0.0.1:57755
+Read port: 57763
+1739275196149	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57755/devtools/browser/ee6fe084-5fcf-4e73-a1ee-f03c7e18d1e3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://raptorsconsulting--qasmartcrm.sandbox.my.salesforce.com."
+1739275205768	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.b68ffd7823e1ef8ca340.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.b68ffd7823e1ef8ca340.js, line 2: unreachable code after return statement
+JavaScript warning: https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/projRes/insights/gen/static/dashboards/js/lightningDashboard.app.b68ffd7823e1ef8ca340.js, line 2: unreachable code after return statement
+JavaScript warning: https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/WAHrtITcmb9EVg3QSg8Rqw/apppart4-4.js, line 2917: Script terminated by timeout at:
+S@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/WAHrtITcmb9EVg3QSg8Rqw/apppart4-4.js:2917:3852
+P@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/WAHrtITcmb9EVg3QSg8Rqw/apppart4-4.js:2917:5277
+co/</w/<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/WAHrtITcmb9EVg3QSg8Rqw/apppart4-4.js:2917:3423
+w@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/WAHrtITcmb9EVg3QSg8Rqw/apppart4-4.js:2917:3385
+_@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/WAHrtITcmb9EVg3QSg8Rqw/apppart4-4.js:2917:4485
+co/</n<@https://static.lightning.force.com/usa3s.sfdc-yfeipo/aurafile/%7B%22mode%22%3A%22PROD%22%2C%22dfs%22%3A%22c%22%2C%22app%22%3A%22one%3Aone%22%2C%22ls%22%3A1%2C%22lrmc%22%3A%22-386269907%22%7D/WAHrtITcmb9EVg3QSg8Rqw/apppart4-4.js:2917:8477
+t@https://static.lightning.force.com/usa3s.sfdc-yfeipo/auraFW/javascript/Z1o0Z2tlUXFOYnlwSlZ4TXd2dXFRUWg5TGxiTHU3MEQ5RnBMM0VzVXc1cmcxMS4zMjc2OC4w/aura_prod.js:28:5702
+
+1739275430980	Marionette	INFO	Stopped listening on port 57763
+Dynamically enable window occlusion 1

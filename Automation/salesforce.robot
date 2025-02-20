@@ -46,8 +46,8 @@ Testcase_1: Verify Login Functionality
 Testcase_8: Search and Create Medical Contact
     Search and Create Medical Contact
 
-#Testcase_9: Edit Medical Contact
-#    Edit Medical Contact
+Testcase_9: Edit Medical Contact
+    Edit Medical Contact
 
 #Testcase_10: Delete Medical Contact
 #    Delete Medical Contact
