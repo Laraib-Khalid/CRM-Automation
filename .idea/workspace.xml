@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.Add Medical Contact Code.">
+      <change afterPath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/Contact Folder/TCL.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Account Folder/Brick Account.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Account Folder/Brick Account.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Medical Contact.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Medical Contact.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/salesforce.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/salesforce.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +50,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LaraibKhalid/PycharmProjects/SMARTCRM-Automation&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/LaraibKhalid/PycharmProjects/SMARTCRM-Automation",
+    "settings.editor.selected.configurable": "robocorp.robot.intellij.RobotPreferencesPage"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LaraibKhalid\PycharmProjects\SMARTCRM-Automation\Automation\Account Folder" />
@@ -131,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740054412549</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.Add Medical Contact Code.">
+      <option name="closed" value="true" />
+      <created>1740117158656</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740117158656</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +187,11 @@
           <url>file://$PROJECT_DIR$/Automation/Account Folder/Hospital Account.resource</url>
           <line>52</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="robot-line">
+          <url>file://$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

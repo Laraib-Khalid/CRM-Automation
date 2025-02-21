@@ -1,6 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource    ../Account Folder/Brick Account.resource
+
 *** Variables ***
 # Create Medical Contact XPath
 ${NEW_MEDICAL_CONTACT_PAGE}     New Contact
