@@ -48,6 +48,7 @@ ${SEARCH_CONTACT_XPATH}    xpath=//input[@placeholder='Search this list...']
 ${SEARCH_CONTACT_NAME_XPath}    //a[@title='Medical Contact']  # Replace with the actual locator of the "medical contact name" element
 
 #   Edit Medical Contact XPath
+${EDIT_CONTACT_BUTTON_XPATH}      xpath=//li[@class='visible' and @data-target-selection-name='sfdc:StandardButton.Contact.Edit']//button[@name='Edit']
 ${EDIT_MEDICAL_EMAIL}    edit_medical@test.com
 ${EDIT_MEDICAL_MOBILE_PHONE}      9876543210
 ${EDIT_MEDICAL_PHONE}      9876543210
@@ -136,8 +137,8 @@ Search and Create Medical Contact
 
 Edit Medical Contact
     Sleep    20s
-    Wait Until Element Is Visible    ${EDIT_BUTTON_XPATH}   20s
-    Click Element    ${EDIT_BUTTON_XPATH}
+    Wait Until Element Is Visible    ${EDIT_CONTACT_BUTTON_XPATH}    20s
+    Click Element    ${EDIT_CONTACT_BUTTON_XPATH}
     Wait Until Page Contains    ${EDIT_PAGE_HEADING}   10s
     Sleep    10s
     Input Text    ${NEW_MEDICAL_EMAIL_XPATH}     ${EDIT_MEDICAL_EMAIL}

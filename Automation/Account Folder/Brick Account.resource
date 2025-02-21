@@ -29,7 +29,7 @@ ${SEARCH_BRICK_NAME_XPath}    //a[@title='Test Brick']  # Replace with the actua
 
 
 #   Edit Brick Account XPath
-${EDIT_BUTTON_XPATH}         xpath=//button[@name='Edit']
+${EDIT_BRICK_BUTTON_XPATH}         xpath=//button[@name='Edit']
 ${EDIT_PAGE_HEADING}         Edit
 ${EDIT_ACCOUNT_NAME_XPATH}    xpath=//input[@name='Name']
 ${EDIT_BRICK_NAME}    Test Brick
@@ -89,8 +89,8 @@ Search and Create Brick Account
 
 Edit Brick Account
     Sleep    20s
-    Wait Until Element Is Visible    ${EDIT_BUTTON_XPATH}   20s
-    Click Element    ${EDIT_BUTTON_XPATH}
+    Wait Until Element Is Visible    ${EDIT_BRICK_BUTTON_XPATH}    20s
+    Click Element    ${EDIT_BRICK_BUTTON_XPATH}
     Wait Until Page Contains    ${EDIT_PAGE_HEADING}   10s
     Sleep    10s
     Clear Element Text  ${EDIT_ACCOUNT_NAME_XPATH}   # Clears the existing text
