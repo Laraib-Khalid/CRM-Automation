@@ -113,7 +113,6 @@ Search and Create Medical Contact
     Sleep    10s
     Click Button    ${APP_LAUNCHER_BUTTON}
     Wait Until Element Is Visible    ${SEARCH_APP}    10s
-    Sleep    10s
     Input Text   ${SEARCH_APP}    ${ENTER_CONTACT_TEXT}
 #    Sleep    10s
     Wait Until Element Is Visible    ${RESULT_CONTACT_TEXT}    10s

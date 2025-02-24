@@ -54,14 +54,17 @@ Testcase_8: Search and Create Medical Contact
 #Testcase_10: Delete Medical Contact
 #    Delete Medical Contact
 
-Testcase_11: Create Contact Business Unit
-    Create Contact Business Unit
+Testcase_11: Click on Related Tab
+    Click on Related Tab
+#
+#Testcase_12: Create Contact Business Unit
+#    Create Contact Business Unit
+#
+#Testcase_13: Edit Contact Business Unit
+#    Edit Contact Business Unit
+#
+#Testcase_14: Delete Contact Business Unit
+#    Delete Contact Business Unit
 
-Testcase_12: Edit Contact Business Unit
-    Edit Contact Business Unit
-
-Testcase_13: Delete Contact Business Unit
-    Delete Contact Business Unit
-
-Testcase_14: Create Contact TCL
+Testcase_15: Create Contact TCL
     Create Contact TCL

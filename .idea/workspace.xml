@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.Add Medical Contact Code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/Account Folder/Brick Account.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Account Folder/Brick Account.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Medical Contact.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Medical Contact.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/TCL.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/TCL.resource" afterDir="false" />
@@ -145,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740142083399</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.Add Medical Contact Code.">
+      <option name="closed" value="true" />
+      <created>1740389745039</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740389745039</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,9 +206,9 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="robot-line">
-          <url>file://$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource</url>
-          <line>23</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/Automation/Contact Folder/TCL.resource</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -19,7 +19,7 @@ ${COUNTRY_OPTION_XPATH}     xpath=//lightning-base-combobox-item[@role='option' 
 
 # Search and Create Brick Account XPath
 ${APP_LAUNCHER_BUTTON}      xpath=//button[@title='App Launcher']
-${SEARCH_APP}       xpath=//input[@role='combobox' and @placeholder='Search apps and items...']
+${SEARCH_APP}       xpath=//input[contains(@placeholder,'Search apps and items')]
 ${ENTER_ACCOUNT_TEXT}     Accounts
 ${RESULT_ACCOUNT_TEXT}     xpath=//p[contains(.,'Accounts')]
 ${ACCOUNT_PAGE_HEADING}     xpath=//h1[@class='slds-var-p-right_x-small'][contains(.,'Accounts')]
