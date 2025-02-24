@@ -3,13 +3,19 @@ Library     SeleniumLibrary
 Resource    Medical Contact.resource
 
 *** Variables ***
-${CONTACT_RELATED_TAB}  xpath= //a[contains(@data-label,'Related')]
+${CONTACT_RELATED_TAB}  xpath=//a[contains(@data-label,'Related')]
 ${CONTACT_BUSINESS_UNIT_NEW_BUTTON}  xpath=(//button[contains(.,'New')])[1]
 ${NEW_CONTACT_BUSINESS_UNIT_PAGE}  New Contact Business Unit
 ${SEARCH_CONTACT_BUSINESS_UNIT_DROWNDOWN_XPATH}  xpath=(//input[contains(@id,'combobox-input-')])[2]
 ${SEARCH_CONTACT_BUSINESS_UNIT_TEXT}  US-ENT & Surgery
 ${SEARCH_CONTACT_BUSINESS_UNIT_DROWNDOWN_OPTIONS_XPATH}     xpath=//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option']
 ${SEARCH_CONTACT_BUSINESS_UNIT_OPTION_XPATH}      xpath=(//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option'])[2]
+${EDIT_PRORITY_OPTION_CONTACT_BUSINESS_UNIT_XPATH}   xpath=//lightning-base-combobox-item[@role='option' and @data-value='C']
+${ACTION_CONTACT_BUSINESS_UNIT_XPATH}   xpath=(//button[.//span[@class='slds-assistive-text' and text()='Show Actions']])[2]
+${EDIT_CONTACT_BUSINESS_UNIT_XPATH}    xpath=//a[@title='Edit']
+${DELETE_CONTACT_BUSINESS_UNIT_XPATH}   xpath=//a[@title='Delete']
+
+
 *** Keywords ***
 Create Contact Business Unit
     Sleep    10s
@@ -26,12 +32,35 @@ Create Contact Business Unit
     Wait Until Page Contains    ${NEW_CONTACT_BUSINESS_UNIT_PAGE}
     Click Button    ${COUNTRY_DROPDOWN_XPATH}
     Click Element   ${COUNTRY_OPTION_XPATH}
-    Click Button    ${NEW_MEDICAL_SPECIALTY_DROPDOWN_XPATH}
-    Click Element   ${NEW_MEDICAL_SPECIALTY_OPTION_XPATH}
-    Click Button    ${NEW_MEDICAL_PRIORITY_DROPDOWN_XPATH}
-    Click Element   ${NEW_MEDICAL_PRIORITY_OPTION_XPATH}
+    Click Button    ${CONTACT_SPECIALTY_DROPDOWN_XPATH}
+    Click Element   ${CONTACT_SPECIALTY_OPTION_XPATH}
+    Click Button    ${CONTACT_PRIORITY_DROPDOWN_XPATH}
+    Click Element   ${CONTACT_PRIORITY_OPTION_XPATH}
     Input Text      ${SEARCH_CONTACT_BUSINESS_UNIT_DROWNDOWN_XPATH}   ${SEARCH_CONTACT_BUSINESS_UNIT_TEXT}
     Sleep    10s
     Wait Until Element Is Visible   ${SEARCH_CONTACT_BUSINESS_UNIT_DROWNDOWN_OPTIONS_XPATH}  10s
     Click Element   ${SEARCH_CONTACT_BUSINESS_UNIT_OPTION_XPATH}
     Click Button    ${SAVE_BUTTON_XPATH}
+
+
+Edit Contact Business Unit
+    Sleep    10s
+#    Execute JavaScript    window.scrollBy(0, 160);
+    Wait Until Element Is Visible     ${ACTION_CONTACT_BUSINESS_UNIT_XPATH}   10s
+    Click Element     ${ACTION_CONTACT_BUSINESS_UNIT_XPATH}
+    Wait Until Element Is Visible    ${EDIT_CONTACT_BUSINESS_UNIT_XPATH}   10s
+    Click Element    ${EDIT_CONTACT_BUSINESS_UNIT_XPATH} 
+    Wait Until Element Is Visible    ${CONTACT_PRIORITY_DROPDOWN_XPATH}     10s
+    Click Button    ${CONTACT_PRIORITY_DROPDOWN_XPATH}
+    Click Element  ${EDIT_PRORITY_OPTION_CONTACT_BUSINESS_UNIT_XPATH} 
+    Wait Until Element Is Visible    ${SAVE_BUTTON_XPATH}
+    Click Button    ${SAVE_BUTTON_XPATH}
+    
+Delete Contact Business Unit
+    Sleep    10s
+    Wait Until Element Is Visible     ${ACTION_CONTACT_BUSINESS_UNIT_XPATH}    10s
+    Click Element     ${ACTION_CONTACT_BUSINESS_UNIT_XPATH} 
+    Wait Until Element Is Visible    ${DELETE_CONTACT_BUSINESS_UNIT_XPATH}   10s
+    Click Element    ${DELETE_CONTACT_BUSINESS_UNIT_XPATH}
+    Wait Until Element Is Visible    ${DELETE_CONFIRM_BUTTON_XPATH}  10s
+    Click Element    ${DELETE_CONFIRM_BUTTON_XPATH}

@@ -9,17 +9,23 @@ ${SEARCH_CONTACT_TCL_DROWNDOWN_XPATH}  xpath=(//input[contains(@id,'combobox-inp
 ${SEARCH_CONTACT_TCL_TEXT}  US-ENT & Surgery
 ${SEARCH_CONTACT_TCL_DROWNDOWN_OPTIONS_XPATH}     xpath=//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option']
 ${SEARCH_CONTACT_TCL_OPTION_XPATH}      xpath=(//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option'])[2]
+${TCL_SEARCH_USER_XPATH}    xpath=//input[@placeholder='Search People...'] 
+${TCL_SEARCH_USER_TEXT}     Asad
+${TCL_SEARCH_USER_OPTION_XPATH}     xpath=//lightning-base-combobox-item[contains(.,'Asad Abbas')]
 
 *** Keywords ***
 Create Contact TCL
-    Sleep    20s
-    Execute JavaScript    window.scrollBy(0, 300);
+    Sleep    10s
+    Execute JavaScript    window.scrollBy(0, 350);
     Sleep    20s
     Click Element    ${CONTACT_TCL_NEW_BUTTON}
     Wait Until Page Contains    ${NEW_CONTACT_TCL_PAGE}     10s
     Click Button    ${NEXT_BUTTON_XPATH}
-    Click Button    ${NEW_MEDICAL_PRIORITY_DROPDOWN_XPATH}
-    Click Element   ${NEW_MEDICAL_PRIORITY_OPTION_XPATH}
+    Sleep    10s
+    Input Text     ${TCL_SEARCH_USER_XPATH}   ${TCL_SEARCH_USER_TEXT}  
+    Click Element    ${TCL_SEARCH_USER_OPTION_XPATH}
+    Click Button    ${CONTACT_PRIORITY_DROPDOWN_XPATH}
+    Click Element   ${CONTACT_PRIORITY_OPTION_XPATH}
     Sleep    20s
 #    Click Element   ${COUNTRY_OPTION_XPATH}
 #    Click Button    ${NEW_MEDICAL_SPECIALTY_DROPDOWN_XPATH}

@@ -29,7 +29,7 @@ Testcase_1: Verify Login Functionality
 #
 #Testcase_2: Search and Create Brick Account
 #    Search and Create Brick Account
-#
+
 #Testcase_3: Edit Brick Functionality
 #    Edit Brick Account
 #
@@ -57,5 +57,11 @@ Testcase_8: Search and Create Medical Contact
 Testcase_11: Create Contact Business Unit
     Create Contact Business Unit
 
-Testcase_12: Create Contact TCL
+Testcase_12: Edit Contact Business Unit
+    Edit Contact Business Unit
+
+Testcase_13: Delete Contact Business Unit
+    Delete Contact Business Unit
+
+Testcase_14: Create Contact TCL
     Create Contact TCL

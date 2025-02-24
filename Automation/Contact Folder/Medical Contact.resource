@@ -15,10 +15,10 @@ ${NEW_MEDICAL_LAST_NAME_XPATH}     xpath=//input[@name='lastName']
 ${NEW_MEDICAL_LAST_NAME}       Contact
 ${NEW_MEDICAL_EXTERNAL_ID_XPATH}    xpath=//input[@name='Contact_External_Id__c']
 ${NEW_MEDICAL_EXTERNAL_ID}      Medical_Contact
-${NEW_MEDICAL_PRIORITY_DROPDOWN_XPATH}    xpath=//button[@aria-label='Priority']
-${NEW_MEDICAL_PRIORITY_OPTION_XPATH}    xpath=//lightning-base-combobox-item[@role='option' and @data-value='B']
-${NEW_MEDICAL_SPECIALTY_DROPDOWN_XPATH}     xpath=//button[@aria-label='Specialty']
-${NEW_MEDICAL_SPECIALTY_OPTION_XPATH}     xpath=//lightning-base-combobox-item[@role='option' and @data-value='Gastroenterology']
+${CONTACT_PRIORITY_DROPDOWN_XPATH}    xpath=//button[@aria-label='Priority']
+${CONTACT_PRIORITY_OPTION_XPATH}    xpath=//lightning-base-combobox-item[@role='option' and @data-value='B']
+${CONTACT_SPECIALTY_DROPDOWN_XPATH}     xpath=//button[@aria-label='Specialty']
+${CONTACT_SPECIALTY_OPTION_XPATH}     xpath=//lightning-base-combobox-item[@role='option' and @data-value='Gastroenterology']
 ${NEW_MEDICAL_PERSON_TYPE_DROPDOWN_XPATH}     xpath=//button[@aria-label='Person Type']
 ${NEW_MEDICAL_PERSON_TYPE_OPTION_XPATH}     xpath=//lightning-base-combobox-item[@role='option' and @data-value='Doctor']
 ${NEW_MEDICAL_ACCOUNT_DROPDOWN_XPATH}  xpath=//input[@placeholder='Search Accounts...']
@@ -80,10 +80,10 @@ Create Medical Contact
 #    Set Global Variable    ${BRICK_NAME}    ${NEW_BRICK_NAME}
     Click Button    ${STATUS_DROPDOWN_XPATH}
     Click Element   ${STATUS_OPTION_XPATH}
-    Click Button    ${NEW_MEDICAL_PRIORITY_DROPDOWN_XPATH}
-    Click Element   ${NEW_MEDICAL_PRIORITY_OPTION_XPATH}
-    Click Button    ${NEW_MEDICAL_SPECIALTY_DROPDOWN_XPATH}
-    Click Element   ${NEW_MEDICAL_SPECIALTY_OPTION_XPATH}
+    Click Button    ${CONTACT_PRIORITY_DROPDOWN_XPATH}
+    Click Element   ${CONTACT_PRIORITY_OPTION_XPATH}
+    Click Button    ${CONTACT_SPECIALTY_DROPDOWN_XPATH}
+    Click Element   ${CONTACT_SPECIALTY_OPTION_XPATH}
     Mouse Down    ${NEW_MEDICAL_EMAIL_XPATH}
 #    Scroll Element Into View    ${NEW_MEDICAL_EMAIL_XPATH}
     Click Element    ${NEW_MEDICAL_PERSON_TYPE_DROPDOWN_XPATH}
@@ -113,6 +113,7 @@ Search and Create Medical Contact
     Sleep    10s
     Click Button    ${APP_LAUNCHER_BUTTON}
     Wait Until Element Is Visible    ${SEARCH_APP}    10s
+    Sleep    10s
     Input Text   ${SEARCH_APP}    ${ENTER_CONTACT_TEXT}
 #    Sleep    10s
     Wait Until Element Is Visible    ${RESULT_CONTACT_TEXT}    10s
