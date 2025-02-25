@@ -36,18 +36,15 @@ Create Contact TCL
     Click Element    ${TCL_SEARCH_USER_OPTION_XPATH}
     Click Button    ${CONTACT_PRIORITY_DROPDOWN_XPATH}
     Click Element   ${CONTACT_PRIORITY_OPTION_XPATH}
-    Select Checkbox    ${ACTIVE_CHECKBOX_XPATH} 
+    Select Checkbox    ${ACTIVE_CHECKBOX_XPATH}
     Click Button    ${TCL_APPROVAL_STATUS_DROPDOWN_XPATH}
     Click Element    ${TCL_APPROVAL_STATUS_OPTION_XPATH}
     Select Checkbox    ${TCL_CALCULATE_FREQUENCY_CHECKBOX_XPATH}
     Input Text     ${TCL_MARKETING_CYCLE_DROPDOWN_XPATH}   ${TCL_MARKETING_CYCLE_TEXT}
     Wait Until Element Is Visible    ${TCL_MARKETING_CYCLE_OPTION_XPATH}   10s
     Click Element    ${TCL_MARKETING_CYCLE_OPTION_XPATH}
-    Scroll Element Into View    ${COUNTRY_DROPDOWN_XPATH}
-    Sleep    10s
-    Execute Javascript  arguments[0].scrollby(0, 500);
-    Sleep    20s
+    Set Focus To Element     ${COUNTRY_DROPDOWN_XPATH}
     Click Button    ${COUNTRY_DROPDOWN_XPATH}
     Click Element   ${COUNTRY_OPTION_XPATH}
     Click Button    ${SAVE_BUTTON_XPATH}
-    Sleep    20s
+
