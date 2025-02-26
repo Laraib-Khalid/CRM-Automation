@@ -32,7 +32,7 @@ Testcase_1: Verify Login Functionality
 #
 #Testcase_3: Edit Brick Functionality
 #    Edit Brick Account
-#
+
 ###Testcase_4: Delete Brick
 ###    Delete Brick Account
 ###
@@ -41,7 +41,7 @@ Testcase_1: Verify Login Functionality
 #
 #Testcase_6: Edit Hospital Account
 #       Edit Hospital Account
-#
+
 ##Testcase_7: Delete Hospital Account
 ##   Delete Hospital Account
 
