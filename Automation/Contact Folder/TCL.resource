@@ -20,17 +20,19 @@ ${TCL_CALCULATE_FREQUENCY_CHECKBOX_XPATH}   xpath=//input[@name='Calculate_Frequ
 ${TCL_MARKETING_CYCLE_DROPDOWN_XPATH}   xpath=//input[contains(@placeholder,'Search Marketing Cycle...')]
 ${TCL_MARKETING_CYCLE_TEXT}     US-M
 ${TCL_MARKETING_CYCLE_OPTION_XPATH}      xpath=//lightning-base-combobox-item[contains(.,'US-M01-2025')]
+${EDIT_ACTION_CONTACT_TCL_XPATH}   xpath=//*[@id="tab-2"]/slot/flexipage-component2[5]/slot/lst-dynamic-related-list/article/laf-progressive-container/slot/lst-dynamic-related-list-with-user-prefs/lst-related-list-view-manager/lst-common-list-internal/div/div/lst-primary-display-manager/div/lst-primary-display/lst-primary-display-grid/lightning-datatable/div[2]/div/div/table/tbody/tr/td[7]/lightning-primitive-cell-factory/span/div/lightning-primitive-custom-cell/lst-list-view-row-level-action/lightning-button-menu/button
+${DELETE_ACTION_CONTACT_TCL_XPATH}   xpath=//a[@class='slds-button slds-button--icon-x-small slds-button--icon-border-filled' and @title='Show 2 more actions']
 
 
 *** Keywords ***
 Create Contact TCL
-    Sleep    10s
-    Execute JavaScript    window.scrollBy(0, 600);
-    Sleep    10s
+    Sleep    5s
+    Execute JavaScript    window.scrollBy(0, 500);
+    Sleep    5s
     Click Element    ${CONTACT_TCL_NEW_BUTTON}
     Wait Until Page Contains    ${NEW_CONTACT_TCL_PAGE}     10s
     Click Button    ${NEXT_BUTTON_XPATH}
-    Sleep    10s
+    Sleep    5s
     Input Text     ${TCL_SEARCH_USER_DROPDOWN_XPATH}   ${TCL_SEARCH_USER_TEXT}
     Wait Until Element Is Visible    ${TCL_SEARCH_USER_DROPDOWN_OPTIONS_XPATH}  10s
     Click Element    ${TCL_SEARCH_USER_OPTION_XPATH}
@@ -48,3 +50,29 @@ Create Contact TCL
     Click Element   ${COUNTRY_OPTION_XPATH}
     Click Button    ${SAVE_BUTTON_XPATH}
 
+Edit Contact TCL
+    Sleep    5s
+#    Execute JavaScript    window.scrollBy(0, 600);
+#    Sleep    10s
+    Scroll Element Into View    ${EDIT_ACTION_CONTACT_TCL_XPATH}
+    Execute JavaScript    window.scrollBy(0, 50);
+    Wait Until Element Is Visible     ${EDIT_ACTION_CONTACT_TCL_XPATH}   10s
+    Click Element     ${EDIT_ACTION_CONTACT_TCL_XPATH}
+    Wait Until Element Is Visible    ${EDIT_CONTACT_RELATED_XPATH}   10s
+    Click Element    ${EDIT_CONTACT_RELATED_XPATH}
+    Wait Until Element Is Visible    ${CONTACT_PRIORITY_DROPDOWN_XPATH}     10s
+    Click Button    ${CONTACT_PRIORITY_DROPDOWN_XPATH}
+    Click Element  ${EDIT_PRORITY_OPTION_CONTACT_BUSINESS_UNIT_XPATH}
+    Wait Until Element Is Visible    ${SAVE_BUTTON_XPATH}
+    Click Button    ${SAVE_BUTTON_XPATH}
+
+Delete Contact TCL
+    Sleep    10s
+    Wait Until Element Is Visible     ${DELETE_ACTION_CONTACT_TCL_XPATH}   10s
+    Click Element     ${DELETE_ACTION_CONTACT_TCL_XPATH}
+    Wait Until Element Is Visible    ${DELETE_CONTACT_RELATED_XPATH}   10s
+    Click Element    ${DELETE_CONTACT_RELATED_XPATH}
+    Sleep    5s
+    Wait Until Element Is Visible    ${DELETE_CONFIRM_BUTTON_XPATH}  10s
+    Click Element    ${DELETE_CONFIRM_BUTTON_XPATH}
+    Sleep   20s
