@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 Resource    Medical Contact.resource
 
 *** Variables ***
-${CONTACT_RELATED_TAB}  xpath=//a[@id='flexipage_tab__item' and @data-label='Related']
+${CONTACT_RELATED_TAB}  xpath=(//a[@id='flexipage_tab__item' and @data-label='Related'])[2]
 ${CONTACT_BUSINESS_UNIT_NEW_BUTTON}  xpath=(//button[contains(.,'New')])[1]
 ${NEW_CONTACT_BUSINESS_UNIT_PAGE}  New Contact Business Unit
 ${SEARCH_CONTACT_BUSINESS_UNIT_DROWNDOWN_XPATH}  xpath=(//input[contains(@id,'combobox-input-')])[2]
@@ -19,7 +19,7 @@ ${DELETE_CONTACT_RELATED_XPATH}   xpath=//a[@title='Delete']
 
 *** Keywords ***
 Click on Related Tab
-    Sleep    20s
+    Sleep    10s
     Wait Until Element Is Visible    ${CONTACT_RELATED_TAB}    10s
     Click Element    ${CONTACT_RELATED_TAB}
 

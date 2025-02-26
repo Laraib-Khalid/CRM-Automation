@@ -27,20 +27,20 @@ Open Different Browser
 Testcase_1: Verify Login Functionality
     Login
 
-#Testcase_2: Search and Create Brick Account
-#    Search and Create Brick Account
-#
-#Testcase_3: Edit Brick Functionality
-#    Edit Brick Account
+Testcase_2: Search and Create Brick Account
+    Search and Create Brick Account
+
+Testcase_3: Edit Brick Functionality
+    Edit Brick Account
 
 ###Testcase_4: Delete Brick
 ###    Delete Brick Account
 ###
-#Testcase_5: Search and Create Hospital Account
-#    Search and Create Hospital Account
-#
-#Testcase_6: Edit Hospital Account
-#       Edit Hospital Account
+Testcase_5: Search and Create Hospital Account
+    Search and Create Hospital Account
+
+Testcase_6: Edit Hospital Account
+       Edit Hospital Account
 
 ##Testcase_7: Delete Hospital Account
 ##   Delete Hospital Account
@@ -48,8 +48,8 @@ Testcase_1: Verify Login Functionality
 Testcase_8: Search and Create Medical Contact
     Search and Create Medical Contact
 
-#Testcase_9: Edit Medical Contact
-#    Edit Medical Contact
+Testcase_9: Edit Medical Contact
+    Edit Medical Contact
 
 #Testcase_10: Delete Medical Contact
 #    Delete Medical Contact
