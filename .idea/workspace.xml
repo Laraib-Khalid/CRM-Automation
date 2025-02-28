@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.Add Medical Contact Code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/TCL.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/TCL.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/salesforce.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/salesforce.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
@@ -56,8 +57,8 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LaraibKhalid/PycharmProjects/SMARTCRM-Automation&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;robocorp.robot.intellij.RobotPreferencesPage&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LaraibKhalid/PycharmProjects/Python_Framework_ab&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -185,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740567591627</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.Add Medical Contact Code.">
+      <option name="closed" value="true" />
+      <created>1740633412272</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740633412272</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
