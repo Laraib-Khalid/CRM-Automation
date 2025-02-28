@@ -1,1 +1,3 @@
 robot --listener allure_robotframework:./allure-results --outputdir ./Report  Automation/salesforce.robot    
+
+allure serve ./allure-results
