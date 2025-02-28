@@ -9,10 +9,10 @@ ${SEARCH_CONTACT_TCL_DROWNDOWN_XPATH}  xpath=(//input[contains(@id,'combobox-inp
 ${SEARCH_CONTACT_TCL_TEXT}  US-ENT & Surgery
 ${SEARCH_CONTACT_TCL_DROWNDOWN_OPTIONS_XPATH}     xpath=//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option']
 ${SEARCH_CONTACT_TCL_OPTION_XPATH}      xpath=(//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option'])[2]
-${TCL_SEARCH_USER_DROPDOWN_XPATH}    xpath=//input[@placeholder='Search People...']
-${TCL_SEARCH_USER_TEXT}     Asad
-${TCL_SEARCH_USER_DROPDOWN_OPTIONS_XPATH}   xpath=//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option']
-${TCL_SEARCH_USER_OPTION_XPATH}     xpath=(//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option'])[2]
+${SEARCH_USER_DROPDOWN_XPATH}    xpath=//input[@placeholder='Search People...']
+${SEARCH_USER_TEXT}     Asad
+${SEARCH_USER_DROPDOWN_OPTIONS_XPATH}   xpath=//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option']
+${SEARCH_USER_OPTION_XPATH}     xpath=(//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option'])[2]
 ${ACTIVE_CHECKBOX_XPATH}    xpath=//input[@name='Active__c']
 ${TCL_APPROVAL_STATUS_DROPDOWN_XPATH}   xpath=//button[@aria-label='Approval Status']
 ${TCL_APPROVAL_STATUS_OPTION_XPATH}   xpath=//lightning-base-combobox-item[@role='option' and @data-value='Activated']
@@ -34,9 +34,9 @@ Create Contact TCL
     Wait Until Page Contains    ${NEW_CONTACT_TCL_PAGE}     10s
     Click Button    ${NEXT_BUTTON_XPATH}
     Sleep    5s
-    Input Text     ${TCL_SEARCH_USER_DROPDOWN_XPATH}   ${TCL_SEARCH_USER_TEXT}
-    Wait Until Element Is Visible    ${TCL_SEARCH_USER_DROPDOWN_OPTIONS_XPATH}  10s
-    Click Element    ${TCL_SEARCH_USER_OPTION_XPATH}
+    Input Text     ${SEARCH_USER_DROPDOWN_XPATH}   ${SEARCH_USER_TEXT}
+    Wait Until Element Is Visible    ${SEARCH_USER_DROPDOWN_OPTIONS_XPATH}  10s
+    Click Element    ${SEARCH_USER_OPTION_XPATH}
     Click Button    ${CONTACT_PRIORITY_DROPDOWN_XPATH}
     Click Element   ${CONTACT_PRIORITY_OPTION_XPATH}
     Select Checkbox    ${ACTIVE_CHECKBOX_XPATH}

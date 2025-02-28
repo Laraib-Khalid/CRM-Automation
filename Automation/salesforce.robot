@@ -7,8 +7,9 @@ Resource    Contact Folder/Medical Contact.resource
 Resource    Contact Folder/Contact Business Unit.resource
 Resource    Contact Folder/TCL.resource
 Resource    Business Unit Folder/Business Unit.resource
+Resource    Business Unit Folder/User Business Unit.resource
 Suite Setup    Open Different Browser
-Suite Teardown    Close Browser
+#Suite Teardown    Close Browser
 
 *** Keywords ***
 Open Different Browser
@@ -28,8 +29,8 @@ Open Different Browser
 Testcase_1: Verify Login Functionality
     Login
 
-Testcase_2: Search and Create Brick Account
-    Search and Create Brick Account
+#Testcase_2: Search and Create Brick Account
+#    Search and Create Brick Account
 
 #Testcase_3: Edit Brick Functionality
 #    Edit Brick Account
@@ -37,8 +38,8 @@ Testcase_2: Search and Create Brick Account
 ###Testcase_4: Delete Brick
 ###    Delete Brick Account
 ###
-Testcase_5: Search and Create Hospital Account
-    Search and Create Hospital Account
+#Testcase_5: Search and Create Hospital Account
+#    Search and Create Hospital Account
 
 #Testcase_6: Edit Hospital Account
 #       Edit Hospital Account
@@ -46,8 +47,8 @@ Testcase_5: Search and Create Hospital Account
 ##Testcase_7: Delete Hospital Account
 ##   Delete Hospital Account
 
-Testcase_8: Search and Create Medical Contact
-    Search and Create Medical Contact
+#Testcase_8: Search and Create Medical Contact
+#    Search and Create Medical Contact
 
 #Testcase_9: Edit Medical Contact
 #    Edit Medical Contact
@@ -78,3 +79,13 @@ Testcase_8: Search and Create Medical Contact
 
 Testcase_16: Search and Create Business Unit
     Search and Create Business Unit
+
+
+#Testcase_17: Edit Business Unit
+#    Edit Business Unit
+
+#Testcase_18: Delete Business Unit
+#    Delete Business Unit
+
+Testcase_19: Create User Business Unit
+    Create User Business Unit

@@ -12,8 +12,7 @@ ${LOGIN_BUTTON_XPATH}    //*[@id="Login"]
 ${CRM_TEXT_VISIBLE}     xpath=/html/body/div[4]/div[1]/section/div[1]/div[1]/one-appnav/div/div/div/h1
 
 *** Keywords ***
-Login
-    Input Text    ${USERNAME_XPATH}    ${USERNAME_VALUE}
+Login    Input Text    ${USERNAME_XPATH}    ${USERNAME_VALUE}
     Input Password    ${PASSWORD_XPATH}    ${PASSWORD_VALUE}
     Click Button    ${LOGIN_BUTTON_XPATH}
     Wait Until Element Is Visible    ${CRM_TEXT_VISIBLE}     10s
