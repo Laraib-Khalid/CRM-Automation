@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the Business Unit code">
-      <change afterPath="$PROJECT_DIR$/Automation/Business Unit Folder/User Business Unit.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/TCL.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/TCL.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Login Folder/Login.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Login Folder/Login.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/salesforce.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/salesforce.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
