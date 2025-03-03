@@ -8,6 +8,8 @@ Resource    Contact Folder/Contact Business Unit.resource
 Resource    Contact Folder/TCL.resource
 Resource    Business Unit Folder/Business Unit.resource
 Resource    Business Unit Folder/User Business Unit.resource
+Resource    Marketing Cycle Folder/Marketing Cycle.resource
+Resource    Marketing Cycle Folder/Marketing Cycle Detail.resource
 Suite Setup    Open Different Browser
 #Suite Teardown    Close Browser
 
@@ -77,9 +79,8 @@ Testcase_1: Verify Login Functionality
 #Testcase_15: Delete Contact TCL
 #    Delete Contact TCL
 
-Testcase_16: Search and Create Business Unit
-    Search and Create Business Unit
-
+#Testcase_16: Search and Create Business Unit
+#    Search and Create Business Unit
 
 #Testcase_17: Edit Business Unit
 #    Edit Business Unit
@@ -87,12 +88,23 @@ Testcase_16: Search and Create Business Unit
 #Testcase_18: Delete Business Unit
 #    Delete Business Unit
 
-Testcase_19: Create User Business Unit
-    Create User Business Unit
+#Testcase_19: Create User Business Unit
+#    Create User Business Unit
 
+#Testcase_20: Edit User Business Unit
+#    Edit User Business Unit
+#
+#Testcase_21: Delete User Business Unit
+#    Delete User Business Unit
+#
+Testcase_22: Search and Create Marketing Cycle
+    Search and Create Marketing Cycle
 
-Testcase_20: Edit User Business Unit
-    Edit User Business Unit
+#Testcase_23: Edit Marketing Cycle
+#    Edit Marketing Cycle
+#
+#Testcase_24: Delete Marketing Cycle
+#    Delete Marketing Cycle
 
-Testcase_21: Delete User Business Unit
-    Delete User Business Unit
+Testcase_25: Create Marketing Cycle Detail
+    Create Marketing Cycle Detail
