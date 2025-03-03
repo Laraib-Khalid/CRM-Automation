@@ -13,7 +13,7 @@ Suite Setup    Open Different Browser
 
 *** Keywords ***
 Open Different Browser
-    Open Browser    https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/  Chrome
+    Open Browser    https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/
     Maximize Browser Window
 
 #
@@ -89,3 +89,10 @@ Testcase_16: Search and Create Business Unit
 
 Testcase_19: Create User Business Unit
     Create User Business Unit
+
+
+Testcase_20: Edit User Business Unit
+    Edit User Business Unit
+
+Testcase_21: Delete User Business Unit
+    Delete User Business Unit
