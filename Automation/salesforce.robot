@@ -10,6 +10,7 @@ Resource    Business Unit Folder/Business Unit.resource
 Resource    Business Unit Folder/User Business Unit.resource
 Resource    Marketing Cycle Folder/Marketing Cycle.resource
 Resource    Marketing Cycle Folder/Marketing Cycle Detail.resource
+Resource    Marketing Cycle Folder/Target KPI.resource
 Suite Setup    Open Different Browser
 #Suite Teardown    Close Browser
 
@@ -58,8 +59,8 @@ Testcase_1: Verify Login Functionality
 ##Testcase_10: Delete Medical Contact
 ##    Delete Medical Contact
 #
-#Testcase_11: Click on Related Tab
-#    Click on Related Tab
+#Testcase_11: Click on Contact Related Tab
+#    Click on Contact Related Tab
 #
 #Testcase_12: Create Contact Business Unit
 #    Create Contact Business Unit
@@ -105,6 +106,18 @@ Testcase_22: Search and Create Marketing Cycle
 #
 #Testcase_24: Delete Marketing Cycle
 #    Delete Marketing Cycle
+#
+#Testcase_25: Create Marketing Cycle Detail
+#    Create Marketing Cycle Detail
 
-Testcase_25: Create Marketing Cycle Detail
-    Create Marketing Cycle Detail
+#Testcase_26: Edit Marketing Cycle Detail
+#    Edit Marketing Cycle Detail
+
+#Testcase_27: Delete Marketing Cycle Detail
+#    Delete Marketing Cycle Detail
+
+Testcase_28: Click on Marketing Cycle Related Tab
+    Click on Marketing Cycle Related Tab
+
+Testcase_29: Create Target KPI
+    Create Target KPI

@@ -19,7 +19,7 @@ ${DELETE_CONTACT_RELATED_XPATH}   xpath=//a[@title='Delete']
 
 
 *** Keywords ***
-Click on Related Tab
+Click on Contact Related Tab
     Sleep    10s
     Wait Until Element Is Visible    ${CONTACT_RELATED_TAB}    10s
     Click Element    ${CONTACT_RELATED_TAB}
