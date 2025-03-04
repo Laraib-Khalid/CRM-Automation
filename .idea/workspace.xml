@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the Business Unit code">
+    <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the Marketing Cycle code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/salesforce.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/salesforce.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740986903166</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="This is the Marketing Cycle code">
+      <option name="closed" value="true" />
+      <created>1741074946893</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1741074946893</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +254,8 @@
     <MESSAGE value="This is the CRM automation code for account tab using selenium and robot framework code using variables." />
     <MESSAGE value="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.Add Medical Contact Code." />
     <MESSAGE value="This is the Business Unit code" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is the Business Unit code" />
+    <MESSAGE value="This is the Marketing Cycle code" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is the Marketing Cycle code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

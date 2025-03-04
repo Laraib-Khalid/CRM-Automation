@@ -16,7 +16,7 @@ Suite Setup    Open Different Browser
 
 *** Keywords ***
 Open Different Browser
-    Open Browser    https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/
+    Open Browser    https://raptorsconsulting--qasmartcrm.sandbox.lightning.force.com/  Chrome
     Maximize Browser Window
 
 #
@@ -107,11 +107,11 @@ Testcase_22: Search and Create Marketing Cycle
 #Testcase_24: Delete Marketing Cycle
 #    Delete Marketing Cycle
 #
-#Testcase_25: Create Marketing Cycle Detail
-#    Create Marketing Cycle Detail
+Testcase_25: Create Marketing Cycle Detail
+    Create Marketing Cycle Detail
 
-#Testcase_26: Edit Marketing Cycle Detail
-#    Edit Marketing Cycle Detail
+Testcase_26: Edit Marketing Cycle Detail
+    Edit Marketing Cycle Detail
 
 #Testcase_27: Delete Marketing Cycle Detail
 #    Delete Marketing Cycle Detail
@@ -121,3 +121,9 @@ Testcase_28: Click on Marketing Cycle Related Tab
 
 Testcase_29: Create Target KPI
     Create Target KPI
+
+Testcase_30: Edit Target KPI
+    Edit Target KPI
+
+Testcase_31: Delete Target KPI
+    Delete Target KPI
