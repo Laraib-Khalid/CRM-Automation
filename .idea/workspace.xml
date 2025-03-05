@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the Marketing Cycle code">
+    <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the updated code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Account Folder/Brick Account.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Account Folder/Brick Account.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Account Folder/Hospital Account.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Account Folder/Hospital Account.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Business Unit Folder/Business Unit.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Business Unit Folder/Business Unit.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Business Unit Folder/User Business Unit.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Business Unit Folder/User Business Unit.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Medical Contact.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Medical Contact.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/TCL.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/TCL.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/Marketing Cycle Folder/Marketing Cycle Detail.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Marketing Cycle Folder/Marketing Cycle Detail.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Marketing Cycle Folder/Marketing Cycle.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Marketing Cycle Folder/Marketing Cycle.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/Marketing Cycle Folder/Target KPI.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Marketing Cycle Folder/Target KPI.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/salesforce.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/salesforce.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741074946893</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="This is the updated code.">
+      <option name="closed" value="true" />
+      <created>1741172338145</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741172338145</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,7 +263,8 @@
     <MESSAGE value="This is the CRM automation code for account tab using selenium and robot framework code using variables. Change and add Contact and Test tab code.Add Medical Contact Code." />
     <MESSAGE value="This is the Business Unit code" />
     <MESSAGE value="This is the Marketing Cycle code" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is the Marketing Cycle code" />
+    <MESSAGE value="This is the updated code." />
+    <option name="LAST_COMMIT_MESSAGE" value="This is the updated code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

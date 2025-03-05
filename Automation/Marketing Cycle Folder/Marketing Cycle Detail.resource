@@ -20,12 +20,12 @@ ${MC_DETAIL_SPECIALTY_OPTION_XPATH}     xpath=//div[@data-value='ENT']
 ${MC_DETAIL_MOVE_TO_BUTTON_XPATH}     xpath=//button[@title='Move to Chosen']//lightning-primitive-icon[@variant='bare']
 
 # Edit Marketing Cycle Detail XPath
-${MC_DETAIL_EDIT_ACTION_BUTTON_XPATH}  xpath=(//button[@class='slds-button slds-button_icon-border slds-button_icon-x-small'])[1]
+${MC_DETAIL_EDIT_ACTION_BUTTON_XPATH}  xpath=(//table[@aria-label="Marketing Cycle Detail"]//button[@class='slds-button slds-button_icon-border slds-button_icon-x-small'])[1]
 ${EDIT_ACTION_MC_DETAIL_XPATH}    xpath=//a[@title='Edit']
 ${MC_DETAIL_GASTRO_SPECIALTY_OPTION_XPATH}     xpath=//div[@data-value='Gastroenterology']
 
 # Delete Marketing Cycle Detail XPath
-${MC_DETAIL_DELETE_ACTION_BUTTON_XPATH}  xpath=//a[@title='Show 2 more actions']
+${MC_DETAIL_DELETE_ACTION_BUTTON_XPATH}  xpath=(//a[@title='Show 2 more actions'])[1]
 ${DELETE_ACTION_MC_DETAIL_XPATH}    xpath=//a[@title='Delete']
 
 *** Keywords ***
