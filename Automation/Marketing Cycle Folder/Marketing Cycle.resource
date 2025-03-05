@@ -7,10 +7,12 @@ Resource    ../Business Unit Folder/Business Unit.resource
 ${NEW_MC_PAGE}  New Marketing Cycle
 ${MC_NAME_XPATH}     xpath=//input[@name='Name']
 ${MC_NAME}       US Test Marketing Cycle
-${START_DATE_XPATH}     xpath=//input[@name='Start_Date__c']
+${MC_START_DATE_XPATH}     xpath=//div[@data-target-selection-name='sfdc:RecordField.Marketing_Cycle__c.Start_Date__c']//input[@name='Start_Date__c']
 ${START_DATE_OPTION}     2025-03-01
-${END_DATE_XPATH}     xpath=//input[@name='End_Date__c']
+${MC_END_DATE_XPATH}     xpath=//div[@data-target-selection-name="sfdc:RecordField.Marketing_Cycle__c.End_Date__c"]//input[@name='End_Date__c']
 ${END_DATE_OPTION}     2025-03-31
+${MC_COUNTRY_DROPDOWN_XPATH}     xpath=//div[@data-target-selection-name="sfdc:RecordField.Marketing_Cycle__c.Country__c"]//button[@aria-label='Country']
+${MC_COUNTRY_OPTION_XPATH}     xpath=//div[@data-target-selection-name="sfdc:RecordField.Marketing_Cycle__c.Country__c"]//lightning-base-combobox-item[@role='option' and @data-value='United States']
 
 # Search Marketing Cycle XPath
 ${ENTER_MC_TEXT}    Marketing Cycle
@@ -35,10 +37,10 @@ Create Marketing Cycle
     Click Element    ${NEW_BUTTON_XPATH}
     Wait Until Page Contains    ${NEW_MC_PAGE}    10s
     Input Text   ${MC_NAME_XPATH}    ${MC_NAME}
-    Input Text    ${START_DATE_XPATH}    ${START_DATE_OPTION}
-    Input Text    ${END_DATE_XPATH}      ${END_DATE_OPTION}
-    Click Button    ${COUNTRY_DROPDOWN_XPATH}
-    Click Element   ${COUNTRY_OPTION_XPATH}
+    Input Text    ${MC_START_DATE_XPATH}    ${START_DATE_OPTION}
+    Input Text    ${MC_END_DATE_XPATH}       ${END_DATE_OPTION}
+    Click Button    ${MC_COUNTRY_DROPDOWN_XPATH}
+    Click Element   ${MC_COUNTRY_OPTION_XPATH}
 #    Click Button    xpath=//button[contains(@title,'Select a date for Start Date')]
     Click Button    ${SAVE_BUTTON_XPATH}
 
@@ -56,7 +58,7 @@ Search and Create Marketing Cycle
     Click Element   ${FILTER_MC_XPATH}
     Wait Until Element Is Visible   ${SELECT_ALL_US_MC_XPATH}     10s
     Click Element    ${SELECT_ALL_US_MC_XPATH}
-    Sleep    25s
+    Sleep    10s
     Input Text     ${SEARCH_XPATH}   ${MC_NAME}
     Press Key    ${SEARCH_XPATH}    \\13
     Sleep    5s
@@ -75,7 +77,7 @@ Edit Marketing Cycle
     Click Element    ${EDIT_MC_BUTTON_XPATH}
     Wait Until Page Contains    ${EDIT_PAGE_HEADING}   10s
     Sleep    10s
-    Input Text    ${START_DATE_XPATH}    ${EDIT_MC_START_DATE_OPTION}
+    Input Text    ${MC_START_DATE_XPATH}    ${EDIT_MC_START_DATE_OPTION}
     Click Button  ${SAVE_BUTTON_XPATH}
 #    Wait Until Keyword Succeeds  10s  1s  Alert Should Be Present
 

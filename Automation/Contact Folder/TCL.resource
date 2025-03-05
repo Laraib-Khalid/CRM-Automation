@@ -29,8 +29,9 @@ ${DELETE_ACTION_CONTACT_TCL_XPATH}   xpath=//a[@class='slds-button slds-button--
 *** Keywords ***
 Create Contact TCL
     Sleep    5s
+    Click on Contact Related Tab
     Execute JavaScript    window.scrollBy(0, 500);
-    Sleep    5s
+    Sleep    10s
     Click Element    ${CONTACT_TCL_NEW_BUTTON}
     Wait Until Page Contains    ${NEW_CONTACT_TCL_PAGE}     10s
     Click Button    ${NEXT_BUTTON_XPATH}

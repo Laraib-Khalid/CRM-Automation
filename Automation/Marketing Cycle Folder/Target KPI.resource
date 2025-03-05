@@ -18,6 +18,7 @@ ${MONTH_OPTION_XPATH}     xpath=//lightning-base-combobox-item[@role='option' an
 ${YEAR_DROPDOWN_XPATH}     xpath=//button[@aria-label='Year']
 ${YEAR_OPTION_XPATH}     xpath=//lightning-base-combobox-item[@role='option' and @data-value='2025']
 ${SCROLL_CREATED_BY_XPATH}    xpath=(//div[@class='slds-form-element slds-hint-parent test-id__output-root slds-form-element_stacked']//span[@class="test-id__field-label"])[1]
+${TARGET_KPI_DELETE_ACTION_BUTTON_XPATH}    xpath=//table[@aria-label="Target KPI"]//a[@title='Show 2 more actions']
 
 *** Keywords ***
 Click on Marketing Cycle Related Tab
@@ -44,6 +45,7 @@ Create Target KPI
     Click Button    ${MONTH_DROPDOWN_XPATH}
     Click Element   ${MONTH_OPTION_XPATH}
     Scroll Element Into View    ${SCROLL_CREATED_BY_XPATH}
+    Wait Until Element Is Visible    ${COUNTRY_DROPDOWN_XPATH}  10s
     Click Button    ${COUNTRY_DROPDOWN_XPATH}
     Click Element   ${COUNTRY_OPTION_XPATH}
     Click Button    ${YEAR_DROPDOWN_XPATH}
@@ -63,8 +65,8 @@ Edit Target KPI
 
 Delete Target KPI
     Sleep    10s
-    Wait Until Element Is Visible     ${MC_DETAIL_DELETE_ACTION_BUTTON_XPATH}   10s
-    Click Element     ${MC_DETAIL_DELETE_ACTION_BUTTON_XPATH}
+    Wait Until Element Is Visible     ${TARGET_KPI_DELETE_ACTION_BUTTON_XPATH}   10s
+    Click Element     ${TARGET_KPI_DELETE_ACTION_BUTTON_XPATH}
     Wait Until Element Is Visible    ${DELETE_ACTION_MC_DETAIL_XPATH}   10s
     Click Element    ${DELETE_ACTION_MC_DETAIL_XPATH}
     Sleep    5s

@@ -106,6 +106,7 @@ Create Medical Contact
     Sleep    10s
     Wait Until Element Is Visible    ${NEW_MEDICAL_SHIPPING_ADDRESS_SEARCH_RESULT}    10s
     Click Element    ${NEW_MEDICAL_SHIPPING_ADDRESS_SEARCH_RESULT}
+    Sleep    10s
     Click Button    ${SAVE_BUTTON_XPATH}
 
 

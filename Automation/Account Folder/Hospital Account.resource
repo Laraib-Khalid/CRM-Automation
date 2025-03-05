@@ -50,7 +50,7 @@ Create Hospital
     Input Text    ${ACCOUNT_BRICK_DROPDOWN_XPATH}   ${ACCOUNT_BRICK_NAME}
     Wait Until Element Is Visible    ${ACCOUNT_BRICK_DROPDOWN_OPTIONS_XPATH}    10s
     Click Element    ${ACCOUNT_BRICK_OPTION_XPATH}
-    Sleep    20s
+    Sleep    5s
     Scroll Element Into View    ${ACCOUNT_BILLING_DROPDOWN_XPATH}
 #    Click Element    xpath=//input[normalize-space(@placeholder)='Search Address']
     Input Text    ${ACCOUNT_BILLING_DROPDOWN_XPATH}    ${ACCOUNT_BILLING_SEARCH_TEXT}
@@ -65,7 +65,8 @@ Search and Create Hospital Account
     Click Button    ${APP_LAUNCHER_BUTTON}
     Wait Until Element Is Visible    ${SEARCH_APP}    10s
     Input Text   ${SEARCH_APP}    ${ENTER_ACCOUNT_TEXT}
-    Sleep    20s
+#    Sleep    20s
+    Wait Until Element Is Visible    ${RESULT_ACCOUNT_TEXT}   10s
     Click Element    ${RESULT_ACCOUNT_TEXT}
     Wait Until Element Is Visible   ${ACCOUNT_PAGE_HEADING}     10s
     Sleep    5s
@@ -73,7 +74,7 @@ Search and Create Hospital Account
     Input Text   ${SEARCH_XPATH}    ${SEARCH_HOSPITAL_NAME}
     Sleep    10s
     Press Key    ${SEARCH_XPATH}    \\13
-    Sleep    20s
+    Sleep    10s
     ${hospital_exists}=    Run Keyword And Return Status    Element Should Be Visible    ${HOSPITAL_NAME_ID}
     Run Keyword If    ${hospital_exists}
     ...    Click Element    ${HOSPITAL_NAME_ID}
@@ -82,7 +83,7 @@ Search and Create Hospital Account
     ...    Create Hospital
 
 Edit Hospital Account
-    Sleep    20s
+    Sleep    10s
     Wait Until Element Is Visible    ${EDIT_HOSPITAL_BUTTON_XPATH}   20s
 #    Page Should Contain Button    xpath=//button[@type="button" and @name='Edit']
     Click Element    ${EDIT_HOSPITAL_BUTTON_XPATH}
@@ -94,7 +95,7 @@ Edit Hospital Account
 #    Wait Until Keyword Succeeds  10s  1s  Alert Should Be Present
 
 Delete Hospital Account
-    Sleep    20s
+    Sleep    10s
     Wait Until Element Is Visible     ${DELETE_HOSPITAL_BUTTON_XPATH}    30s
 #    Page Should Contain Button    xpath=//button[@type="button" and @name='Delete']
     Click Element    ${DELETE_HOSPITAL_BUTTON_XPATH}

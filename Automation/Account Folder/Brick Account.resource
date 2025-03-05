@@ -5,7 +5,8 @@ Library     Search_Brick_Account.py
 *** Variables ***
 # Create Brick Account XPath
 ${NEW_BUTTON_XPATH}     xpath=//a[@title="New"]
-${BRICK_RADIO_OPTION_XAPTH}     xpath=(//span[contains(@class,'slds-form-element__label')])[2]
+#${BRICK_RADIO_OPTION_XAPTH}     xpath=(//span[contains(@class,'slds-form-element__label')])[2]
+${BRICK_RADIO_OPTION_XAPTH}     xpath=(//span[contains(@class,'slds-radio--faux')])[2]
 ${NEXT_BUTTON_XPATH}    xpath=//button[contains(.,'Next')]
 ${NEW_BRICK_NAME_XPATH}     xpath=//input[@name='Name']
 ${NEW_BRICK_NAME}   Test
@@ -15,7 +16,7 @@ ${ACCOUNT_CHANNEL_DROPDOWN_XPATH}     xpath=//button[@aria-label='Channel']
 ${BRICK_CHANNEL_OPTION_XPATH}     xpath=//lightning-base-combobox-item[@role='option' and @data-value='Brick']
 ${COUNTRY_DROPDOWN_XPATH}     xpath=//button[@aria-label='Country']
 ${COUNTRY_OPTION_XPATH}     xpath=//lightning-base-combobox-item[@role='option' and @data-value='United States']
-
+#${BRICK_COUNTRY_DROPDOWN_XPATH}     xpath=//div[@data-target-selection-name="sfdc:RecordField.Account.Country__c"]//button[@aria-label='Country']
 
 # Search and Create Brick Account XPath
 ${APP_LAUNCHER_BUTTON}      xpath=//button[@title='App Launcher']
@@ -59,6 +60,7 @@ Create Brick
     Click Element    ${STATUS_OPTION_XPATH}
     Click Button    ${ACCOUNT_CHANNEL_DROPDOWN_XPATH}
     Click Element    ${BRICK_CHANNEL_OPTION_XPATH}
+    Set Focus To Element     ${COUNTRY_DROPDOWN_XPATH}
     Click Button    ${COUNTRY_DROPDOWN_XPATH}
     Click Element   ${COUNTRY_OPTION_XPATH}
     Click Button    ${SAVE_BUTTON_XPATH}
@@ -69,8 +71,8 @@ Search and Create Brick Account
 #    Sleep    10s
     Wait Until Element Is Visible    ${SEARCH_APP}    10s
     Input Text   ${SEARCH_APP}    ${ENTER_ACCOUNT_TEXT}
-    Sleep    20s
-#    Wait Until Element Is Visible    ${RESULT_ACCOUNT_TEXT}    10s
+#    Sleep    20s
+    Wait Until Element Is Visible    ${RESULT_ACCOUNT_TEXT}    10s
     Click Element    ${RESULT_ACCOUNT_TEXT}
     Wait Until Element Is Visible   ${ACCOUNT_PAGE_HEADING}     10s
     Sleep    5s
@@ -88,11 +90,11 @@ Search and Create Brick Account
      Handle Brick Action    ${brick_exists}    ${SEARCH_BRICK_NAME_XPath}
 
 Edit Brick Account
-    Sleep    20s
-    Wait Until Element Is Visible    ${EDIT_BRICK_BUTTON_XPATH}    20s
+    Sleep    10s
+    Wait Until Element Is Visible    ${EDIT_BRICK_BUTTON_XPATH}    10s
     Click Element    ${EDIT_BRICK_BUTTON_XPATH}
     Wait Until Page Contains    ${EDIT_PAGE_HEADING}   10s
-    Sleep    10s
+    Sleep    5s
     Clear Element Text  ${EDIT_ACCOUNT_NAME_XPATH}   # Clears the existing text
     Input Text      ${EDIT_ACCOUNT_NAME_XPATH}   ${EDIT_BRICK_NAME}
 #    Set Global Variable    ${BRICK_NAME}    ${EDIT_BRICK_NAME}
@@ -102,10 +104,11 @@ Edit Brick Account
 #    Wait Until Keyword Succeeds  10s  1s  Alert Should Be Present
 
 Delete Brick Account
-    Wait Until Element Is Visible    ${DELETE_BRICK_BUTTON_XPATH}     20s
     Sleep    10s
+    Wait Until Element Is Visible    ${DELETE_BRICK_BUTTON_XPATH}     10s
+    Sleep    5s
     Click Element    ${DELETE_BRICK_BUTTON_XPATH}
-    Sleep    10s
+    Sleep    5s
     Wait Until Element Is Visible    ${DELETE_CONFIRM_BUTTON_XPATH}  10s
     Click Element    ${DELETE_CONFIRM_BUTTON_XPATH}
     Sleep    10s
