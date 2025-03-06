@@ -6,6 +6,8 @@ Resource    ../Contact Folder/TCL.resource
 *** Variables ***
 # Create Business Unit XPath
 ${USER_BU_NEW_BUTTON_XPATH}  xpath=//li[@data-target-selection-name='sfdc:StandardButton.User_Business_Unit__c.New']//button[contains(.,'New')]
+${SEARCH_USER_DROPDOWN_OPTIONS_XPATH}   xpath=//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option']
+${SEARCH_USER_OPTION_XPATH}     xpath=(//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option'])[2]
 ${USER_BU_ACTIVE_CHECKBOX_XPATH}    xpath=//input[@name='Active__c']
 ${USER_BU_XPATH_OPTION}    xpath=//lightning-base-combobox-formatted-text[@title='US Test Business Unit']
 ${USER_BU_START_DATE_OPTION}    Mar 1, 2025
