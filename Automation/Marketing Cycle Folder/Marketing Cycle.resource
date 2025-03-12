@@ -19,7 +19,8 @@ ${ENTER_MC_TEXT}    Marketing Cycle
 ${RESULT_MC_TEXT}     xpath=//p[@class='slds-truncate'][contains(.,'Marketing Cycle')]
 ${MC_PAGE_HEADING}     xpath=//h1[@class='slds-var-p-right_x-small'][contains(.,'Marketing Cycle')]
 ${FILTER_MC_XPATH}     xpath=//button[contains(@title,'Select a List View: Marketing Cycle')]
-${SELECT_ALL_US_MC_XPATH}     xpath=//a[contains(.,'US - Marketing Cycle')]
+${SELECT_ALL_US_MC_XPATH}     xpath=//span[@title='US - Marketing Cycle']
+#${SELECT_ALL_US_MC_XPATH}     xpath=//a[contains(.,'US - Marketing Cycle')]
 ${SEARCH_MC_XPath}  xpath=//a[@title='US Test Marketing Cycle']
 
 # Edit Marketing Cycle XPath

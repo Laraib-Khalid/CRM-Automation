@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4ddfb4e8-5190-4cb4-8ecc-798a9abb962d" name="Changes" comment="This is the updated code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/Business Unit Folder/Business Unit.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Business Unit Folder/Business Unit.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Contact Business Unit.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/Contact Folder/Medical Contact.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Contact Folder/Medical Contact.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/Login Folder/Login.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Login Folder/Login.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/Marketing Cycle Folder/Marketing Cycle.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Marketing Cycle Folder/Marketing Cycle.resource" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/salesforce.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/salesforce.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +58,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LaraibKhalid/PycharmProjects/Python_Framework_ab&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LaraibKhalid/OneDrive - Business Solutions &amp; Services/Desktop/Laraib Data/SQA/Automation/SMARTCRM_Data_Driven_Testing&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -310,8 +314,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="robot-line">
           <url>file://$PROJECT_DIR$/Automation/salesforce.robot</url>
-          <line>51</line>
+          <line>56</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="robot-line">
+          <url>file://$PROJECT_DIR$/Automation/salesforce.robot</url>
+          <line>80</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

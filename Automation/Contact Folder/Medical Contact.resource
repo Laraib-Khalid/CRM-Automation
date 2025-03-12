@@ -5,7 +5,8 @@ Resource    ../Account Folder/Brick Account.resource
 *** Variables ***
 # Create Medical Contact XPath
 ${NEW_MEDICAL_CONTACT_PAGE}     New Contact
-${MEDICAL_RADIO_OPTION_XPATH}     xpath=(//span[contains(@class,'slds-form-element__label')])[3]
+#${MEDICAL_RADIO_OPTION_XPATH}     xpath=(//span[contains(@class,'slds-form-element__label')])[3]
+${MEDICAL_RADIO_OPTION_XPATH}     xpath=(//span[contains(@class,'slds-radio--faux')])[3]
 ${MEDICAL_CONTACT_PAGE}     Contact
 ${SALUTATION_MEDICAL_DROPDOWN}     xpath=//button[@aria-label='Salutation']
 ${SALUTATION_MEDICAL_OPTION}    xpath=//span[@class='slds-media__body'][contains(.,'Ms.')]
@@ -25,6 +26,8 @@ ${NEW_MEDICAL_ACCOUNT_DROPDOWN_XPATH}  xpath=//input[@placeholder='Search Accoun
 ${NEW_MEDICAL_ACCOUNT_DROPDOWN_OPTIONS_XPATH}     xpath=//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option']
 ${NEW_MEDICAL_ACCOUNT_OPTION_XPATH}     xpath=(//lightning-base-combobox-item[@class='slds-media slds-listbox__option slds-media_center slds-listbox__option_entity' and @role='option'])[2]
 ${CONTACT_ACCOUNT_NAME}     Test Hospital
+${NEW_MEDICAL_COUNTRY_DROPDOWN_XPATH}     xpath=//div[@data-target-selection-name='sfdc:RecordField.Contact.Country__c']//button[@aria-label='Country']
+${NEW_MEDICAL_COUNTRY_OPTION_XPATH}     xpath=//div[@data-target-selection-name='sfdc:RecordField.Contact.Country__c']//lightning-base-combobox-item[@role='option' and @data-value='United States']
 ${NEW_MEDICAL_GENDER_DROPDOWN_XPATH}     xpath=//button[@aria-label='Gender']
 ${NEW_MEDICAL_GENDER_OPTION_XPATH}     xpath=//lightning-base-combobox-item[@data-value='Female']
 ${NEW_MEDICAL_EMAIL_XPATH}  xpath=//input[@name='Email']
@@ -43,8 +46,10 @@ ${NEW_MEDICAL_EMAIL_OPTIN_XPATH}  xpath=//input[@name='hasEmailOptIn__c']
 ${ENTER_CONTACT_TEXT}   Contacts
 ${RESULT_CONTACT_TEXT}     xpath=//p[contains(.,'Contacts')]
 ${CONTACT_PAGE_HEADING}     xpath=//h1[@class='slds-var-p-right_x-small'][contains(.,'Contacts')]
-${FILTER_CONTACT_XPATH}     xpath=(//div[contains(.,'Select a List View: Contacts')])[23]
-${SELECT_ALL_US_CONTACT_XPATH}     xpath=(//a[contains(.,'SelectedUS - All Contacts')])[1]
+#${FILTER_CONTACT_XPATH}     xpath=(//div[contains(.,'Select a List View: Contacts')])[23]
+#${SELECT_ALL_US_CONTACT_XPATH}     xpath=(//a[contains(.,'SelectedUS - All Contacts')])[1]
+${FILTER_CONTACT_XPATH}     xpath=//button[@title='Select a List View: Contacts']
+${SELECT_ALL_US_CONTACT_XPATH}     xpath=//span[@title='US - All Contacts']
 ${SEARCH_CONTACT_XPATH}    xpath=//input[@placeholder='Search this list...']
 ${SEARCH_CONTACT_NAME_XPath}    //a[@title='Medical Contact']  # Replace with the actual locator of the "medical contact name" element
 
@@ -88,11 +93,11 @@ Create Medical Contact
 #    Scroll Element Into View    ${NEW_MEDICAL_EMAIL_XPATH}
     Click Element    ${NEW_MEDICAL_PERSON_TYPE_DROPDOWN_XPATH}
     Click Element   ${NEW_MEDICAL_PERSON_TYPE_OPTION_XPATH}
-    Click Button    ${COUNTRY_DROPDOWN_XPATH}
-    Click Element   ${COUNTRY_OPTION_XPATH}
     Input Text    ${NEW_MEDICAL_ACCOUNT_DROPDOWN_XPATH}   ${CONTACT_ACCOUNT_NAME}
     Wait Until Element Is Visible    ${NEW_MEDICAL_ACCOUNT_DROPDOWN_OPTIONS_XPATH}    10s
     Click Element    ${NEW_MEDICAL_ACCOUNT_OPTION_XPATH}
+    Click Button    ${NEW_MEDICAL_COUNTRY_DROPDOWN_XPATH}
+    Click Element   ${NEW_MEDICAL_COUNTRY_OPTION_XPATH}
     Click Button    ${NEW_MEDICAL_GENDER_DROPDOWN_XPATH}
     Click Element   ${NEW_MEDICAL_GENDER_OPTION_XPATH}
     Input Text    ${NEW_MEDICAL_EMAIL_XPATH}     ${NEW_MEDICAL_EMAIL}

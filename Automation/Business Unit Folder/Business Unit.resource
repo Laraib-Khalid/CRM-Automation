@@ -17,7 +17,8 @@ ${ENTER_BU_TEXT}    Business Unit
 ${RESULT_BU_TEXT}     xpath=//p[@class='slds-truncate'][contains(.,'Business Unit')]
 ${BU_PAGE_HEADING}     xpath=//h1[@class='slds-var-p-right_x-small'][contains(.,'Business Unit')]
 ${FILTER_BU_XPATH}     xpath=//button[contains(@title,'Select a List View: Business Unit')]
-${SELECT_ALL_US_BU_XPATH}     xpath=//a[contains(.,'US-Business Units')]
+${SELECT_ALL_US_BU_XPATH}     xpath=//span[@title='US-Business Units']
+#${SELECT_ALL_US_BU_XPATH}     xpath=//a[contains(.,'US-Business Units')]
 ${SEARCH_BU_XPath}  xpath=//a[@title='US Test Business Unit']
 
 
