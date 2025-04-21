@@ -52,6 +52,7 @@ Create Contact TCL
     Select Checkbox    ${TCL_CALCULATE_FREQUENCY_CHECKBOX_XPATH}
     Input Text     ${TCL_MARKETING_CYCLE_DROPDOWN_XPATH}   ${MC_NAME}
     Wait Until Element Is Visible  ${TCL_MARKETING_CYCLE_OPTIONS_XPATH}      10s
+    Sleep    5s
     Click Element    ${TCL_MARKETING_CYCLE_OPTION_XPATH}
     Set Focus To Element     ${TCL_COUNTRY_DROPDOWN_XPATH}
     Click Button    ${TCL_COUNTRY_DROPDOWN_XPATH}
@@ -63,7 +64,7 @@ Edit Contact TCL
 #    Execute JavaScript    window.scrollBy(0, 600);
 #    Sleep    10s
     Set Focus To Element    ${EDIT_ACTION_CONTACT_TCL_XPATH}
-    Execute JavaScript    window.scrollBy(0, 50);
+    Execute JavaScript    window.scrollBy(0, 100);
     Wait Until Element Is Visible     ${EDIT_ACTION_CONTACT_TCL_XPATH}   10s
     Click Element     ${EDIT_ACTION_CONTACT_TCL_XPATH}
     Wait Until Element Is Visible    ${EDIT_CONTACT_RELATED_XPATH}   10s

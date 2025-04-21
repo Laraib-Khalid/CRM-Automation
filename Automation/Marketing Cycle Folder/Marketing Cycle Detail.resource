@@ -21,12 +21,12 @@ ${MC_DETAIL_MOVE_TO_BUTTON_XPATH}     xpath=//button[@title='Move to Chosen']//l
 
 # Edit Marketing Cycle Detail XPath
 ${MC_DETAIL_EDIT_ACTION_BUTTON_XPATH}  xpath=(//table[@aria-label="Marketing Cycle Detail"]//button[@class='slds-button slds-button_icon-border slds-button_icon-x-small'])[1]
-${EDIT_ACTION_MC_DETAIL_XPATH}    xpath=//a[@title='Edit']
+${EDIT_ACTION_MC_DETAIL_XPATH}    xpath=//li[@role="presentation"]//a[@title='Edit']
 ${MC_DETAIL_GASTRO_SPECIALTY_OPTION_XPATH}     xpath=//div[@data-value='Gastroenterology']
 
 # Delete Marketing Cycle Detail XPath
 ${MC_DETAIL_DELETE_ACTION_BUTTON_XPATH}  xpath=(//a[@title='Show 2 more actions'])[1]
-${DELETE_ACTION_MC_DETAIL_XPATH}    xpath=//a[@title='Delete']
+${DELETE_ACTION_MC_DETAIL_XPATH}    xpath=//li[@role="presentation"]//a[@title='Delete']
 
 *** Keywords ***
 Create Marketing Cycle Detail
@@ -53,6 +53,7 @@ Create Marketing Cycle Detail
     
 Edit Marketing Cycle Detail
     Sleep    10s
+    Execute JavaScript    window.scrollBy(0, 100);
     Wait Until Element Is Visible   ${MC_DETAIL_EDIT_ACTION_BUTTON_XPATH}      10s
     Click Button    ${MC_DETAIL_EDIT_ACTION_BUTTON_XPATH}
     Wait Until Element Is Visible    ${EDIT_ACTION_MC_DETAIL_XPATH}    10s
