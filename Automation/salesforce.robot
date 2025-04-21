@@ -32,7 +32,7 @@ Testcase_1: Verify Login Functionality With Invalid Credentials
     InValid Login
 
 
-Testcase_2: Verify Login Functionality With Valid Credentials
+Testcase_1: Verify Login Functionality With Valid Credentials
     Valid Login
 
 

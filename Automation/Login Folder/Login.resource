@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 
 *** Variables ***
 # Login Folder XPath
-${USERNAME_XPATH}    //*[@id="username"]
+${USERNAME_XPATH}    //input[@type='email']
 ${VALID_USERNAME_VALUE}    admin.qasmartcrm@bssuniversal.com
 ${INVALID_USERNAME_VALUE}    admin
 ${PASSWORD_XPATH}    //*[@id="password"]
@@ -23,4 +23,5 @@ InValid Login
     Input Text    ${USERNAME_XPATH}    ${INVALID_USERNAME_VALUE}
     Input Password    ${PASSWORD_XPATH}    ${PASSWORD_VALUE}
     Click Button    ${LOGIN_BUTTON_XPATH}
+    Sleep    10s
 #    Wait Until Element Is Visible    ${CRM_TEXT_VISIBLE}     10s
