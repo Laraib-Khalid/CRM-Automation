@@ -10,7 +10,7 @@ ${MC_NAME}       US Test Marketing Cycle
 ${MC_START_DATE_XPATH}     xpath=//div[@data-target-selection-name='sfdc:RecordField.Marketing_Cycle__c.Start_Date__c']//input[@name='Start_Date__c']
 ${START_DATE_OPTION}     2025-03-01
 ${MC_END_DATE_XPATH}     xpath=//div[@data-target-selection-name="sfdc:RecordField.Marketing_Cycle__c.End_Date__c"]//input[@name='End_Date__c']
-${END_DATE_OPTION}     2025-03-31
+${END_DATE_OPTION}     2025-05-31
 ${MC_COUNTRY_DROPDOWN_XPATH}     xpath=//div[@data-target-selection-name="sfdc:RecordField.Marketing_Cycle__c.Country__c"]//button[@aria-label='Country']
 ${MC_COUNTRY_OPTION_XPATH}     xpath=//div[@data-target-selection-name="sfdc:RecordField.Marketing_Cycle__c.Country__c"]//lightning-base-combobox-item[@role='option' and @data-value='United States']
 

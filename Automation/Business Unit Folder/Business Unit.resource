@@ -10,7 +10,7 @@ ${BU_NAME}       US Test Business Unit
 ${START_DATE_XPATH}     xpath=//input[@name='Start_Date__c']
 ${START_DATE_OPTION}     2025-03-01
 ${END_DATE_XPATH}     xpath=//input[@name='End_Date__c']
-${END_DATE_OPTION}     2025-03-31
+${END_DATE_OPTION}     2025-05-31
 
 # Search Business Unit XPath
 ${ENTER_BU_TEXT}    Business Unit
@@ -24,7 +24,7 @@ ${SEARCH_BU_XPath}  xpath=//a[@title='US Test Business Unit']
 
 # Edit Business Unit XPath
 ${EDIT_BU_BUTTON_XPATH}     xpath=//li[@data-target-selection-name='sfdc:StandardButton.Business_Unit__c.Edit']//button[@name='Edit']
-${EDIT_BU_START_DATE_OPTION}     2025-03-03
+${EDIT_BU_START_DATE_OPTION}     2025-05-31
 
 # Delete Business Unit XPath
 ${DELETE_BU_BUTTON_XPATH}     xpath=//li[@data-target-selection-name='sfdc:StandardButton.Business_Unit__c.Delete']//button[@name='Delete']
